@@ -37,7 +37,7 @@ Make sure you include your images in an image folder
 Then run the following command
 
 ```
-python speaking_art.py --image_folder $image_folder --desc $description_fodler
+python speaking_art.py --image_folder $image_folder --desc $description_folder
 ```
 ## HOW TO CITE
 ```

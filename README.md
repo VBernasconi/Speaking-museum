@@ -1,5 +1,5 @@
 # Speaking-museum
-Based on the concept of [Speaking Images](https://github.com/VBernasconi/Speaking-Images), this repository proposes a simplified version without the use of an LLM. It has to be used with a set of images and their corresponding descriptions in a separate folder.
+Based on the concept of [Speaking Images](https://github.com/VBernasconi/Speaking-Images), this repository proposes a simplified version of a speaking image generator without LLMs. It has to be used with a set of images and their corresponding texts in a separate folder (see 'SETUP PROJECT STRUCTURE' bellow). The script will generated short videos where characters represented in the images will recite the given text. This repository is intended to help the generation of multiple speaking images in a curatorial context. Additionaly, it proposes the integration of output videos into a simple AR application using [MindAR](https://hiukim.github.io/mind-ar-js-doc/)
 
 ## DOWNLOAD THE FOLLOWING OPEN SOURCE LIBRARIES
 - [DeepFace](https://github.com/serengil/deepface)
@@ -39,3 +39,11 @@ Then run the following command
 ```
 python speaking_art.py --image_folder $image_folder --desc $description_fodler
 ```
+## HOW TO CITE
+@software{speaking_images,
+  author = {Valentine Bernasconi},
+  title = {Speaking Images},
+  year = {2025},
+  url = {https://github.com/VBernasconi/Speaking-Images},
+  doi = {10.5281/zenodo.17701405}
+}

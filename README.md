@@ -39,7 +39,8 @@ Then run the following command
 ```
 python speaking_art.py --image_folder $image_folder --desc $description_fodler
 ```
-## HOW TO CITE
+## HOW TO CITE$
+```
 @software{speaking_images,
   author = {Valentine Bernasconi},
   title = {Speaking Images},
@@ -47,3 +48,4 @@ python speaking_art.py --image_folder $image_folder --desc $description_fodler
   url = {https://github.com/VBernasconi/Speaking-Images},
   doi = {10.5281/zenodo.17701405}
 }
+```
